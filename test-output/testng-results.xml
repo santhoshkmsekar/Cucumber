@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-06T18:09:56 IST" name="PRINT_APP_WEB_APPLICATION" finished-at="2023-03-06T18:17:17 IST" duration-ms="440921">
+    <groups>
+    </groups>
+    <test started-at="2023-03-06T18:09:56 IST" name="Login" finished-at="2023-03-06T18:09:59 IST" duration-ms="3223">
+      <class name="TestCases.LoginPageTest">
+        <test-method signature="Login()[pri:0, instance:TestCases.LoginPageTest@9353778]" started-at="2023-03-06T18:09:56 IST" name="Login" finished-at="2023-03-06T18:09:59 IST" duration-ms="3080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- TestCases.LoginPageTest -->
+    </test> <!-- Login -->
+    <test started-at="2023-03-06T18:09:59 IST" name="Photo_Print" finished-at="2023-03-06T18:10:48 IST" duration-ms="48355">
+      <class name="TestCases.PhotoPrintTest">
+        <test-method signature="Photo_Print_Module()[pri:0, instance:TestCases.PhotoPrintTest@68999068]" started-at="2023-03-06T18:09:59 IST" name="Photo_Print_Module" finished-at="2023-03-06T18:10:48 IST" duration-ms="48340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Photo_Print_Module -->
+      </class> <!-- TestCases.PhotoPrintTest -->
+    </test> <!-- Photo_Print -->
+    <test started-at="2023-03-06T18:10:48 IST" name="Photo_Frame" finished-at="2023-03-06T18:12:10 IST" duration-ms="82357">
+      <class name="TestCases.PhotoFrameTest">
+        <test-method signature="Photo_Frame_Module()[pri:0, instance:TestCases.PhotoFrameTest@2f7298b]" started-at="2023-03-06T18:10:48 IST" name="Photo_Frame_Module" finished-at="2023-03-06T18:12:10 IST" duration-ms="82345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Photo_Frame_Module -->
+      </class> <!-- TestCases.PhotoFrameTest -->
+    </test> <!-- Photo_Frame -->
+    <test started-at="2023-03-06T18:12:10 IST" name="Passport_Size" finished-at="2023-03-06T18:13:11 IST" duration-ms="61280">
+      <class name="TestCases.PassportSizeTest">
+        <test-method signature="Passport_Size_Module()[pri:0, instance:TestCases.PassportSizeTest@7714e963]" started-at="2023-03-06T18:12:10 IST" name="Passport_Size_Module" finished-at="2023-03-06T18:13:11 IST" duration-ms="61261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Passport_Size_Module -->
+      </class> <!-- TestCases.PassportSizeTest -->
+    </test> <!-- Passport_Size -->
+    <test started-at="2023-03-06T18:13:11 IST" name="Ecommerce_Module" finished-at="2023-03-06T18:14:24 IST" duration-ms="72981">
+      <class name="TestCases.EcommerceProductsTest">
+        <test-method signature="Ecommercepage()[pri:0, instance:TestCases.EcommerceProductsTest@1afd44cb]" started-at="2023-03-06T18:13:11 IST" name="Ecommercepage" finished-at="2023-03-06T18:14:24 IST" duration-ms="72970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ecommercepage -->
+      </class> <!-- TestCases.EcommerceProductsTest -->
+    </test> <!-- Ecommerce_Module -->
+    <test started-at="2023-03-06T18:14:24 IST" name="Selfie_Album" finished-at="2023-03-06T18:15:48 IST" duration-ms="83652">
+      <class name="TestCases.SelfieAlbumTest">
+        <test-method signature="Selfie()[pri:0, instance:TestCases.SelfieAlbumTest@402bba4f]" started-at="2023-03-06T18:14:24 IST" name="Selfie" finished-at="2023-03-06T18:15:48 IST" duration-ms="83641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selfie -->
+      </class> <!-- TestCases.SelfieAlbumTest -->
+    </test> <!-- Selfie_Album -->
+    <test started-at="2023-03-06T18:15:48 IST" name="Personalized_Products" finished-at="2023-03-06T18:17:17 IST" duration-ms="88593">
+      <class name="TestCases.PersonalizedProductsTest">
+        <test-method is-config="true" signature="InitTest1()[pri:0, instance:TestCases.PersonalizedProductsTest@7334aada]" started-at="2023-03-06T18:09:43 IST" name="InitTest1" finished-at="2023-03-06T18:09:56 IST" duration-ms="12957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitTest1 -->
+        <test-method signature="PersoanlizedProductsModule()[pri:0, instance:TestCases.PersonalizedProductsTest@7334aada]" started-at="2023-03-06T18:15:48 IST" name="PersoanlizedProductsModule" finished-at="2023-03-06T18:17:17 IST" duration-ms="88583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersoanlizedProductsModule -->
+        <test-method is-config="true" signature="quit_Browser1()[pri:0, instance:TestCases.PersonalizedProductsTest@7334aada]" started-at="2023-03-06T18:17:17 IST" name="quit_Browser1" finished-at="2023-03-06T18:17:18 IST" duration-ms="970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit_Browser1 -->
+      </class> <!-- TestCases.PersonalizedProductsTest -->
+    </test> <!-- Personalized_Products -->
+  </suite> <!-- PRINT_APP_WEB_APPLICATION -->
+</testng-results>
